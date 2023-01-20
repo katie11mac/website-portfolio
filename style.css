@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+:root {
+    --important-text: #05386B;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+h1, h2, a, .icon, .navbar-brand, .nav-link {
+    color: var(--important-text);
+}
+
+body {
+    background-color: #AAABB8;
+}
+
+h1, h2 {
+    font-weight: 900; 
+}
+
+h3 {
+    font-size: 23px;
+}
+
+p, li {
+    font-size: 18px; 
+}
+
+p.information {
+    margin-bottom:0%;
+}
+
+.sub-information {
+    font-size: 14px; 
+}
+
+.profile-img {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.icon {
+    font-size: 21px;
+}
+
+.projects {
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+
+.about-me {
+    margin: 10px;
+}
+
+.animated:hover {
+    text-decoration: underline;
+}
