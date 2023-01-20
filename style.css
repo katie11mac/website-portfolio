@@ -53,3 +53,7 @@ p.information {
 .about-me {
     margin: 10px;
 }
+
+.animated:hover {
+    text-decoration: underline;
+}
