@@ -4,6 +4,14 @@
     font-family: 'Montserrat';
 }
 
+h1, h2, a, .icon {
+    color: #05386B;
+}
+
+body {
+    background-color: #AAABB8;
+}
+
 h1, h2 {
     font-weight: 900; 
 }
@@ -14,6 +22,15 @@ h3 {
 
 p, li {
     font-size: 18px; 
+}
+
+.sub-information {
+    font-size: 14px; 
+}
+
+.profile-img {
+    border-radius: 50%;
+    margin: 10px;
 }
 
 .icon {
