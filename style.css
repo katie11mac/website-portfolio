@@ -8,7 +8,7 @@
     font-family: 'Montserrat';
 }
 
-h1, h2, a, .icon, .navbar-brand, .nav-link {
+h1, h2, a, i, .navbar-brand, .nav-link {
     color: var(--important-text);
 }
 
@@ -41,8 +41,8 @@ p.information {
     margin: 10px;
 }
 
-.icon {
-    font-size: 21px;
+i {
+    font-size: 24px;
 }
 
 .projects {
@@ -51,9 +51,14 @@ p.information {
 }
 
 .about-me {
-    margin: 10px;
+    margin-bottom: 15px;
 }
 
-.animated:hover {
+.nav-link:hover {
     text-decoration: underline;
+}
+
+.icon-link:hover, a:hover {
+    color:#066dd4;
+    transition: all 0.5s;
 }
