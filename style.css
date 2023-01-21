@@ -2,6 +2,8 @@
 
 :root {
     --important-text: #05386B;
+    --background: #AAABB8;
+    --hover-color: #066dd4;
 }
 
 * {
@@ -13,7 +15,7 @@ h1, h2, a, i, .navbar-brand, .nav-link {
 }
 
 body {
-    background-color: #AAABB8;
+    background-color: var(--background);
 }
 
 h1, h2 {
@@ -22,6 +24,10 @@ h1, h2 {
 
 h3 {
     font-size: 23px;
+}
+
+i {
+    font-size: 24px;
 }
 
 p, li {
@@ -41,8 +47,8 @@ p.information {
     margin: 10px;
 }
 
-i {
-    font-size: 24px;
+.about-me {
+    margin-bottom: 15px;
 }
 
 .projects {
@@ -50,15 +56,11 @@ i {
     margin-bottom: 15px; 
 }
 
-.about-me {
-    margin-bottom: 15px;
-}
-
 .nav-link:hover {
     text-decoration: underline;
 }
 
 .icon-link:hover, a:hover {
-    color:#066dd4;
+    color: var(--hover-color);
     transition: all 0.5s;
 }
